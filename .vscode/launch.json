@@ -16,7 +16,7 @@
       "request": "launch",
       "name": "debug test 2",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\test\\test.js"
+      "program": "${workspaceFolder}\\test\\test2.js"
     }
   ]
 }

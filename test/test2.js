@@ -1,8 +1,7 @@
 function test2() {
   let count = 0;
   while (true) {
-    debugger;
-    console.log(`test2 ${count++}`);
+    console.log(`test 2: ${count++}`);
   }
 }
 test2();

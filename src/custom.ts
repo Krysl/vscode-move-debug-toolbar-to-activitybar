@@ -31,6 +31,9 @@ function disconnect() {
   }
 }
 
+/**
+ * code based on https://github.com/microsoft/vscode/issues/2513#issuecomment-348506599
+ */
 function getOutOfMyWay(debugToolbar: HTMLDivElement) {
   console.log('patch debug toolbar now');
   debugToolbar.setAttribute(
